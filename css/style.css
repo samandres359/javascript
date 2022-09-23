@@ -1,0 +1,59 @@
+body{
+ background: rgb(71, 73, 212);   
+}
+
+h1, h3{
+    text-align: center;
+    font-size: 60px;
+    color: #ffffff;
+    margin-top: 100px;
+    transition: 0.5s;
+}
+
+h1, h3:hover{
+    color: rgb(228, 2, 2);
+    font-size: 80px;
+}
+
+h2{
+    text-align: center;
+    font-Size: 30px;
+    color: greenyellow;
+
+}
+
+a img{
+    width: 50px;
+}
+
+#space{
+    width: 100%;
+}
+
+#algoritmos{
+    background: url("../img/pexels-pixabay-326055.jpg");
+    background-size: cover;
+    background-repeat: none;
+    text-align: center;
+    
+}
+
+#algoritmos h1{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+#algoritmos button{
+    padding: 12px 40px;
+    font-size: 20px;
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    margin: 20px 10px;
+}
+
+#algoritmos button:hover{
+    background-color: #4566EB;
+    border: 5px solid #0D16EB;
+    font-size: 30px;
+}
